@@ -25,15 +25,14 @@ os.system("tput setaf 7")
 
 
 def date():
-	choice = int(input(""" 1. date
-	2. time""")
+	choice = int(input(" 1. date\n2. time")
 	if(choice==1):
 		os.system("date +%D")
 	elif(choice==2):
 		os.system("date +%T")
 		
 def calander():
-	os.system("cal()")
+	os.system("cal")
 	
 def speak():
 	say=input("What you want computer to speak for you")
